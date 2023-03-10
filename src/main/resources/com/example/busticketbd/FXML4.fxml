@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.ParallelCamera?>
+<?import javafx.scene.PerspectiveCamera?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Scene4" prefHeight="762.0" prefWidth="1022.0" style="-fx-background-color: LIGHTSKYBLUE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.busticketbd.Controller4">
+   <children>
+      <Label fx:id="Scene4Label1" layoutX="28.0" layoutY="44.0" text="Choose Your Seat(s)">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="Rectangle1" arcHeight="5.0" arcWidth="5.0" fill="#e6e9ec" height="520.0" layoutX="31.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="251.0" />
+      <PerspectiveCamera />
+      <ParallelCamera />
+      <AmbientLight color="CHARTREUSE" lightOn="true" />
+      <CheckBox fx:id="A1" layoutX="39.0" layoutY="135.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="17.0" prefWidth="46.0" text="A1" />
+      <CheckBox fx:id="A2" layoutX="86.0" layoutY="135.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="A2" />
+      <CheckBox fx:id="A3" layoutX="176.0" layoutY="135.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="46.0" text="A3" />
+      <CheckBox fx:id="A4" layoutX="236.0" layoutY="135.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="46.0" text="A4" />
+      <CheckBox fx:id="B1" layoutX="39.0" layoutY="184.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="B1" />
+      <CheckBox fx:id="B2" layoutX="85.0" layoutY="184.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="22.0" text="B2" />
+      <CheckBox fx:id="B3" layoutX="177.0" layoutY="184.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="B3" />
+      <CheckBox fx:id="B4" layoutX="237.0" layoutY="184.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="B4" />
+      <CheckBox fx:id="C1" layoutX="39.0" layoutY="233.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="C1" />
+      <CheckBox fx:id="C2" layoutX="86.0" layoutY="233.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="C2" />
+      <CheckBox fx:id="C3" layoutX="177.0" layoutY="233.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="C3" />
+      <CheckBox fx:id="C4" layoutX="235.0" layoutY="233.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="C4" />
+      <CheckBox fx:id="D1" layoutX="39.0" layoutY="281.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="D1" />
+      <CheckBox fx:id="D2" layoutX="86.0" layoutY="281.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="D2" />
+      <CheckBox fx:id="D3" layoutX="177.0" layoutY="281.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="D3" />
+      <CheckBox fx:id="D4" layoutX="235.0" layoutY="281.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="D4" />
+      <CheckBox fx:id="E1" layoutX="39.0" layoutY="338.0" mnemonicParsing="false" onAction="#checkevent" text="E1" />
+      <CheckBox fx:id="E2" layoutX="85.0" layoutY="337.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="18.0" text="E2" />
+      <CheckBox fx:id="E3" layoutX="176.0" layoutY="337.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="E3" />
+      <CheckBox fx:id="E4" layoutX="236.0" layoutY="337.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="E4" />
+      <CheckBox fx:id="F1" layoutX="39.0" layoutY="389.0" mnemonicParsing="false" onAction="#checkevent" text="F1" />
+      <CheckBox fx:id="F2" layoutX="85.0" layoutY="389.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="30.0" text="F2" />
+      <CheckBox fx:id="F3" layoutX="175.0" layoutY="388.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="35.0" text="F3" />
+      <CheckBox fx:id="F4" layoutX="236.0" layoutY="389.0" mnemonicParsing="false" onAction="#checkevent" text="F4" />
+      <CheckBox fx:id="G1" layoutX="38.0" layoutY="441.0" mnemonicParsing="false" onAction="#checkevent" text="G1" />
+      <CheckBox fx:id="G2" layoutX="86.0" layoutY="441.0" mnemonicParsing="false" onAction="#checkevent" text="G2" />
+      <CheckBox fx:id="G3" layoutX="177.0" layoutY="440.0" mnemonicParsing="false" onAction="#checkevent" prefHeight="18.0" prefWidth="38.0" text="G3" />
+      <CheckBox fx:id="G4" layoutX="235.0" layoutY="441.0" mnemonicParsing="false" onAction="#checkevent" text="G4" />
+      <CheckBox fx:id="H1" layoutX="39.0" layoutY="497.0" mnemonicParsing="false" onAction="#checkevent" text="H1" />
+      <CheckBox fx:id="H2" layoutX="86.0" layoutY="497.0" mnemonicParsing="false" onAction="#checkevent" text="H2" />
+      <CheckBox fx:id="H3" layoutX="177.0" layoutY="497.0" mnemonicParsing="false" onAction="#checkevent" text="H3" />
+      <CheckBox fx:id="H4" layoutX="235.0" layoutY="497.0" mnemonicParsing="false" onAction="#checkevent" text="H4" />
+      <CheckBox fx:id="I1" layoutX="40.0" layoutY="547.0" mnemonicParsing="false" onAction="#checkevent" text="I1" />
+      <CheckBox fx:id="I2" layoutX="88.0" layoutY="547.0" mnemonicParsing="false" onAction="#checkevent" text="I2" />
+      <CheckBox fx:id="I3" layoutX="179.0" layoutY="547.0" mnemonicParsing="false" onAction="#checkevent" text="I3" />
+      <CheckBox fx:id="I4" layoutX="237.0" layoutY="547.0" mnemonicParsing="false" onAction="#checkevent" text="I4" />
+      <Button fx:id="Scene4Button1" blendMode="DIFFERENCE" layoutX="577.0" layoutY="672.0" mnemonicParsing="false" onAction="#switchttoinfo" prefHeight="26.0" prefWidth="182.0" text="Continue" textFill="#210101">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="Scene4Button2" blendMode="DIFFERENCE" layoutX="29.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchtoscene3" prefHeight="26.0" prefWidth="167.0" text="Back To Pevious Page">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font></Button>
+      <Label layoutX="350.0" layoutY="38.0" prefHeight="18.0" prefWidth="78.0" text=" Seat(s):">
+         <font>
+            <Font name="Britannic Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TextLabel1" layoutX="403.0" layoutY="31.0" prefHeight="202.0" prefWidth="615.0" />
+      <Label layoutX="337.0" layoutY="268.0" text="Total Seat(s):">
+         <font>
+            <Font name="Britannic Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TextLabel2" layoutX="414.0" layoutY="263.0" prefHeight="26.0" prefWidth="272.0" />
+      <Label layoutX="354.0" layoutY="327.0" prefHeight="18.0" prefWidth="30.0" text="Fare:">
+         <font>
+            <Font name="Britannic Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="TextLabel3" layoutX="404.0" layoutY="323.0" prefHeight="26.0" prefWidth="242.0" />
+      <Label fx:id="warninglabel" layoutX="31.0" layoutY="632.0" prefHeight="40.0" prefWidth="430.0" textFill="#f20707">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="Combobox" layoutX="668.0" layoutY="368.0" prefHeight="26.0" prefWidth="214.0" promptText="Boarding Point" />
+   </children>
+</AnchorPane>

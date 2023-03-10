@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="UserInfo" prefHeight="735.0" prefWidth="924.0" style="-fx-background-color: CYAN;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.busticketbd.Controller_info">
+   <children>
+      <Label fx:id="warninglabel" layoutX="61.0" layoutY="593.0" prefHeight="30.0" prefWidth="514.0" textFill="#f20707">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="155.0" layoutX="666.0" layoutY="268.0">
+         <image>
+            <Image url="@../../../clipart--person-icon--cliparts-15.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="58.0" layoutY="75.0" prefHeight="26.0" prefWidth="188.0" text="Passenger Information">
+         <font>
+            <Font name="Bernard MT Condensed" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="infolabel2" layoutX="55.0" layoutY="134.0" prefHeight="30.0" prefWidth="55.0" text=" Name:">
+         <font>
+            <Font name="Bodoni MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="infotextfield1" layoutX="58.0" layoutY="173.0" prefHeight="26.0" prefWidth="188.0" />
+      <Label fx:id="infolabel21" layoutX="58.0" layoutY="215.0" prefHeight="30.0" prefWidth="55.0" text="Gender:">
+         <font>
+            <Font name="Bodoni MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rb1" layoutX="89.0" layoutY="263.0" mnemonicParsing="false" text="Male" />
+      <RadioButton fx:id="rb2" layoutX="162.0" layoutY="263.0" mnemonicParsing="false" text="Female" />
+      <Label fx:id="infolabel22" layoutX="58.0" layoutY="298.0" prefHeight="30.0" prefWidth="134.0" text="Mobile Number:">
+         <font>
+            <Font name="Bodoni MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="infotextfield2" layoutX="58.0" layoutY="353.0" prefHeight="26.0" prefWidth="188.0" />
+      <Label fx:id="infolabel31" layoutX="61.0" layoutY="424.0" text="Email:">
+         <font>
+            <Font name="Bodoni MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="infotextfield3" layoutX="61.0" layoutY="472.0" prefHeight="26.0" prefWidth="208.0" />
+      <Button fx:id="Button2" layoutX="53.0" layoutY="679.0" mnemonicParsing="false" onAction="#switchtoprev" prefHeight="44.0" prefWidth="306.0" text="Back To Previous Page" textFill="#ac11b1">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Button fx:id="Button" layoutX="708.0" layoutY="674.0" mnemonicParsing="false" onAction="#savedinfo" prefHeight="42.0" prefWidth="155.0" text="Proceed" textFill="#e10404">
+         <font>
+            <Font name="Britannic Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

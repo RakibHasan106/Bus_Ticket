@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="737.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.busticketbd.Controllertemp">
+   <children>
+      <ImageView fitHeight="583.0" fitWidth="849.0" layoutX="-1.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../pic2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="249.0" layoutY="168.0" text="Please Choose an option">
+         <font>
+            <Font name="Britannic Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt1" blendMode="SRC_ATOP" cache="true" layoutX="62.0" layoutY="277.0" mnemonicParsing="false" onAction="#switchtoscene2" text="Reserve a ticket" textFill="#1a1b12" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt2" blendMode="SRC_ATOP" cache="true" layoutX="309.0" layoutY="277.0" mnemonicParsing="false" onAction="#switchtocancel" text="Cancel Ticket" textFill="#1a1b12" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt3" blendMode="SRC_ATOP" cache="true" layoutX="523.0" layoutY="277.0" mnemonicParsing="false" onAction="#info" prefHeight="48.0" prefWidth="274.0" text="View Ticket Information" textFill="#1a1b12" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

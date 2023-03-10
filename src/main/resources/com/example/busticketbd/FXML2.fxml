@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SCENE2" prefHeight="503.0" prefWidth="737.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.busticketbd.Controller2">
+   <children>
+      <Label fx:id="Label" layoutX="53.0" layoutY="528.0" textFill="#ff0404">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="558.0" fitWidth="737.0" layoutX="1.0">
+         <image>
+            <Image url="@../../../pic2.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="TEXTLABEL2" layoutX="73.0" layoutY="14.0" prefHeight="18.0" prefWidth="106.0" text="FROM" textFill="#0b0b0a">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TEXTFIELD1" layoutX="73.0" layoutY="56.0" prefHeight="46.0" prefWidth="362.0" />
+      <Label fx:id="TEXTLABEL3" layoutX="73.0" layoutY="111.0" prefHeight="32.0" prefWidth="68.0" text="TO">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TEXTFIELD2" layoutX="73.0" layoutY="163.0" prefHeight="46.0" prefWidth="362.0" />
+      <Label fx:id="TEXTLABEL4" layoutX="73.0" layoutY="239.0" text="DATE OF JOURNEY" textFill="#eeff06">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="DATEPICKER1" layoutX="73.0" layoutY="291.0" prefHeight="46.0" prefWidth="362.0" />
+      <Button fx:id="BUTTON2" blendMode="SRC_ATOP" cache="true" layoutX="561.0" layoutY="480.0" mnemonicParsing="false" onAction="#switchtoscene3" text="SEARCH BUSES" textFill="#1a1b12" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="warninglabel" layoutX="73.0" layoutY="423.0" prefHeight="40.0" prefWidth="544.0" textFill="RED">
+         <font>
+            <Font name="Britannic Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="BUTTON21" blendMode="SRC_ATOP" cache="true" layoutX="19.0" layoutY="480.0" mnemonicParsing="false" onAction="#swithctotemp" prefHeight="48.0" prefWidth="271.0" text="Back To Previous Page" textFill="#1a1b12" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
